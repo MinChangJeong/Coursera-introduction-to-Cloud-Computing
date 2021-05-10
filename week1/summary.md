@@ -33,3 +33,6 @@
   - Oracle Cloud
   - Salesforce
   - SAP
+
+ ## Lesson SUmmary
+ - Cloud computing is the delivery of on-demand computing resources over the internet on a pay-as-you-go basis; resources are dynamically assigned and reassigned among multiple users and scale up and down in response to users’ needs.
