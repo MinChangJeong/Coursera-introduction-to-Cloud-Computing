@@ -35,9 +35,10 @@
   리소스 사용은 활용률에 따라 투명하게 모티터링, 측정 및 보고 된다.
   
 ##### Summary
-  =>  클라우드 컴퓨팅은 "서비스로서의 기술"을 활용하고, 개방형 인터넷을 통해 on-demand 방식으로 원격 시스텔을 활용하고,
+  * 클라우드 컴퓨팅은 "서비스로서의 기술"을 활용하고, 개방형 인터넷을 통해 on-demand 방식으로 원격 시스텔을 활용하고,
       scaling up, scaling back 하며 사용한 만큼 비용을 지불하는 것이다. 
-      전 세계가 컴퓨팅 서비스를 소비하는 방식, 즉 비용 효율성을 높이는 동시에 기업의 시장 변화에 보다 민첩하게 대응할 수 있도록 지원한다.
+  
+  *전 세계가 컴퓨팅 서비스를 소비하는 방식, 즉 비용 효율성을 높이는 동시에 기업의 시장 변화에 보다 민첩하게 대응할 수 있도록 지원한다.
       
 #### 3 Deployment Model
 
@@ -49,7 +50,6 @@
 3. Hybrid
   - public, private를 함께 사용하여 원할하게 함께 작업하는 경우를 의미한다.
 
-#### The three models that are based on the three layers in a Computing stack
 - Infrastructure (IaaS)
   인프라 및 물리적 "컴퓨팅 리소스" (ex> Server, Network, Storage, Data center space)를 관리하거나 운영할 필요 없이 접근할 수 있다.
 
