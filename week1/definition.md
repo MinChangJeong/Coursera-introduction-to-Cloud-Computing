@@ -50,6 +50,7 @@
 3. Hybrid
   - public, private를 함께 사용하여 원할하게 함께 작업하는 경우를 의미한다.
 
+### Computer Stacks
 - Infrastructure (IaaS)
   인프라 및 물리적 "컴퓨팅 리소스" (ex> Server, Network, Storage, Data center space)를 관리하거나 운영할 필요 없이 접근할 수 있다.
 
