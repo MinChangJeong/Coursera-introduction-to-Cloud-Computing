@@ -119,5 +119,8 @@
   - utomatic archiving rules for your data, meaning that if an object isn't accessed for a period of time, it will automatically be moved to a cheaper storage tier
   
 - Application Program Interface or API
-  - 
+  
+  
+    <img align="center" width="1280" alt="2021-05-27" src="https://user-images.githubusercontent.com/65451455/119764455-602c3000-beec-11eb-8742-6dc4bc21099a.png">
+
 
