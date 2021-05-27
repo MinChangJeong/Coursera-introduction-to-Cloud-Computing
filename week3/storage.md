@@ -63,3 +63,61 @@
 
 
 ## Block Storage
+
+- Block storage breaks files into chunks(or blocks) of data and store each block separately under a unique address
+- must be attatched to a compute node before it can be utilized
+- Mounted from remote storage appliances
+- extremely resilient to failure
+- data is more secure
+- single move at the speed of light
+- higer price-point
+- perfect for workloads that need low-latency
+- consistent high speed
+- database and mail servers
+- not suitable for shared storage between multiple servers
+- IOPS
+  - specify iops charcteristics
+  - adjust the iops as needed
+  - depending on requirements and usage behavior
+
+### Common Attributes of File & Block Storage
+
+- Block and File storage is taken from appliances which are maintained by the service provider
+- Both are highly available and resilient
+- often include data encryption at rest and in transit (종종 정지 상태 및 전송 중인 데이터 암호화를 포함합니다.)
+
+- File Storage
+  - Attached via ethernet network
+  - speeds vary, based on load
+  - can attach to multiple compute nodes at once
+  - good for file shared where : fast connectivity isn't required, cost is a factor
+
+- Block storage
+  -  attached via high-speed fibre network
+  -  only attach to one node at a time
+  -  good for applications that need : consistent fast access to disk
+
+#### Remember to consider the IOPS requirements of the application when provisioning either file or block storage
+
+
+## Object Storage
+
+- Object Storage is used to store files or Objects which are static. 
+- The data that you can store using Object Storage can be anything from text files to audio and video files, from IOT data to virtual machine images, from backup files to data archives.
+- You cannot run operating systems or other applications such as databases using Object Storage.
+- Objects are stored in Buckets. You can have multiple buckets, but you cannot place buckets within buckets.
+- You do not need to specify a size for a bucket, you can just use as little or as much space as you need. 
+- Many providers offer different types of buckets with different charges for each. Some are based on resilience and availability, while others are based on the frequency at which the objects inside are accessed.
+
+### Object Storage - Tiers and APIs
+
+- Object Storage Tiers
+  - Object Storage buckets also have storage tiers, or classes, associated with them, and these tiers are based on how frequently the data is accessed. 
+  - A standard tier bucket is where you would store objects that are frequently accessed
+  - vault or archive tier is where you might store documents that are only accessed perhaps only once or twice a month, or less, and this will be offered at a lower storage cost. 
+  - cold vault tier, where you would store data that is typically accessed only once or twice a year.
+  - utomatic archiving rules for your data, meaning that if an object isn't accessed for a period of time, it will automatically be moved to a cheaper storage tier
+  
+- Application Program Interface or API
+  - 
+
